@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-
     public void onClick(View view) {
         ImageView image = (ImageView) findViewById(R.id.ball);
         image.setRotation(180);

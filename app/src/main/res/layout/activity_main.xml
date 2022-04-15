@@ -30,9 +30,27 @@
         android:id="@+id/text_view_id"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
+        android:layout_margin="5dp"
         android:textColor="#FFF"
         android:layout_gravity="center_vertical|center_horizontal"
         android:text="Click the button above, please." />
+
+    <TextView
+        android:id="@+id/text_view_id"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="50dp"
+        android:textColor="#FFF"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="How many degrees did the ball rotate?" />
+
+    <EditText
+        android:id="@+id/plain_text_input"
+        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textColor="#FFF"
+        android:inputType="text"/>
 
 </LinearLayout>
 
