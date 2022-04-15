@@ -5,12 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#000000"
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_margin="20dp"
+        android:id="@+id/ball"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:layout_margin="20dp"
         android:src="@drawable/basket" />
 
     <Button
@@ -21,7 +23,8 @@
         android:layout_height="60dp"
         android:background="#FF8C00"
         android:textSize="20dp"
+        android:onClick="onClick"
         android:text="ROTATE" />
 
-
 </LinearLayout>
+
